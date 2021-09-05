@@ -4,70 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Drink with DE</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <div class="wraper">
+    <h1>Let's Drink with DE</h1>
     <header class="header">
-       <div class="header__nav">
-           <ul class="nav__list1">
-               <li class="list1__item"><a href="#none" class="anchor">BEST 10</a></li>
-               <li class="list1__item"><a href="#none" class="anchor">EVERYDAY</a></li>
-               <li class="list1__item"><a href="#none" class="anchor">SPECIAL</a></li>
+       <button class="header__button header__button--menu" type="button">메뉴</button> 
+       <div class="nav header__nav">
+           <ul class="nav__list">
+               <li class="nav__item"><a href="#none" class="anchor">BEST 10</a></li>
+               <li class="nav__item"><a href="#none" class="anchor">EVERYDAY</a></li>
+               <li class="nav__item"><a href="#none" class="anchor">SPECIAL</a></li>
+               <li class="nav__item"><a href="#none" class="anchor">WITHFOODS</a></li>
+               <li class="nav__item"><a href="#none" class="anchor">TOGETHER</a></li>
            </ul>
-           <a href="#none" class="anchor header__logo"><img src="images/logo(L).png" alt="let's drink with de"></a>
-           <ul class="nav__list2">
-            <li class="list2__item"><a href="#none" class="anchor">WITH FOODS</a></li>
-            <li class="list2__item"><a href="#none" class="anchor">TOGETHER</a></li>
-        </ul>
         </div>
+        <a href="#none" class="anchor header__logo"><img src="images/logo(L).png" alt="let's drink with de" class="image"></a>
     </header>
-    <div class="slide"></div>   
-    <div class="content">
-        <div class="content__cont1">
-            <h2 class="cont1_h">Let's Drink BEST 10</h2>
-            <ul class="cont1__list">
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>
-                <li class="cont1__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
-                    <b class="item__b">소주</b>
-                    <p class="item__p">설명</p></li>    
-                <button type="button" class="cont1__button">Check it out</button> 
-        </div>
-        <div class="content__cont2">
-            <div class="cont2__top">
-                <img src="#none" alt="맥주캔 이미지" class="image">
-                <h2 class="top__h">특별한 날 마시고 싶은 Special Cocktail Recipe</h2>
+    <main class="contents">
+        <div class="contents__section contents__section--visual">
+            <ul class="visual__list">
+                <li class="visual__item"> 
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">월</a>
+                </li> 
+                <li class="visual__item"> 
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">화</a>
+                </li>
+                <li class="visual__item"> 
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">수</a>
+                </li>
+                <li class="visual__item">
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">목</a>
+                </li>
+                <li class="visual__item">
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">금</a>
+                </li>
+                <li class="visual__item">
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">토</a>
+                </li>
+                <li class="visual__item">   
+                    <a href="#none" class="anchor"><img src="#none" alt="월요일" class="image">일</a>
+                </li>
+            </ul>
+        </div>   
+        <div class="section contents__section contents__section--best">
+            <div class="section__header">
+                <h2 class="section__title">Let's Drink BEST 10</h2>
+            </div> 
+            <div class="best section__contents setion__contents--best">
+                <ul class="best__list">
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>
+                    <li class="best__item"><a href="#none" class="anchor"><img src="#none" alt="소주" class="image"></a>
+                        <b class="item__b">소주</b>
+                        <p class="item__p">설명</p></li>    
             </div>
-            <ul class="cont2__list">
-                
+            <div class="footer section__footer">
+                <button type="button" class="footer__button footer__button--more">Check it out</button> 
+            </div>
+        </div>
+            <div class="section contents__section contents__section--special">
+                <div class="section__header">
+                    <img src="#none" alt="맥주캔 이미지" class="image">
+                    <h2 class="section__title">특별한 날 마시고 싶은 Special Cocktail Recipe</h2>
+                </div>
+                <ul class="special__list">
+                    <li class="special__item">
+                        <a href="#none" class="anchor"><img src="#none" alt="칵테일">B52</a>
+                    </li>
+                    <li class="special__item">
+                        <a href="#none" class="anchor"><img src="#none" alt="칵테일">B52</a>
+                    </li>
+                    <li class="special__item">
+                        <a href="#none" class="anchor"><img src="#none" alt="칵테일">B52</a>
+                    </li>
+                    <li class="special__item">
+                        <a href="#none" class="anchor"><img src="#none" alt="칵테일">B52</a>
+                    </li>
+                </ul>
+            </div>
+        <div class="contents__section contents__section--foods">
+            <div class="section__header">
+                <h2 class="section__title">소주</h2>
+                <p class="section__description">설명</p>
+                <button class="section__button" type="button">check it out</button>
+            </div>
+            <div class="section__contents">
+                <img src="#none" alt="이미지" class="image">
+            </div>
+        </div> 
+    </main>
+    <footer class="footer">
+        <div class="footer__text">Let's drink with DE</div>
+        <div class="footer__logo">
+            <img src="#none" alt="푸터이미지">
+        </div>
+        <div class="nav footer__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#none" class="anchor">메뉴1</a>
+                </li>
+                <li class="nav__item"><a href="#none" class="anchor">메뉴2</a>
+                </li>
+                <li class="nav__item"><a href="#none" class="anchor">메뉴3</a>
+                </li>
+                <li class="nav__item"><a href="#none" class="anchor">메뉴4</a>
+                </li>
+                <li class="nav__item"><a href="#none" class="anchor">메뉴5</a>
+                </li>
             </ul>
         </div>
-        <div class="content__cont3"></div>
+        <div class="footer__sns">
+            <a href="#" class="anchor"><img src="#none" alt="sns1">sns1</a>
+            <a href="#" class="anchor"><img src="#none" alt="sns2">sns2</a>
+            <a href="#" class="anchor"><img src="#none" alt="sns3">sns3</a>
+        </div>
+    </footer>
     </div>
-    <footer class="footer"></footer>
 </body>
 </html>

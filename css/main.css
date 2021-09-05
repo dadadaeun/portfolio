@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url("reset.css");
+
+
+.wraper{}
+/*header*/
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+.header__button{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.header__nav{
+    display: none;
+}
+.header__logo{
+    display: inline-block;
+    margin-top: 7px;
+}
+.header__logo .image{
+    width:auto;
+    height: 34px;
+}
+/*contents*/
+.contents{
+    margin-top:50px;
+}
+
+/*footer*/
+.footer{
+ background-color: #353847;
+}
