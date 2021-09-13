@@ -92,6 +92,7 @@
 .slide-card{
     width:240px;
     margin-top: 10px;
+    display: inline-block;
 }
 .slide-card__thumbnail{
     display: block;
@@ -135,7 +136,7 @@
 .section__footer{
     padding: 30px 0;
 }
-.section__button{
+.slide-card .section__button{
     display: block;
     margin: 0 auto; 
     background-color: #000;
@@ -149,10 +150,35 @@
 
 .section__special{
     background-color: #FCC12A;
+    width:;
 }
 .section__special .section__header{
     text-align: center;
+    padding-top: 30px;
 }
+.section__special .section__title{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 20px;
+    font-weight: bold;
+}
+.section__special .section__header .image{
+    width: 100px;
+}
+
+.thumb-card{
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+.thumb-card__thumbnail{
+    width: 100%;
+    height: 165px;
+}
+.thumb-card .image{
+    height: 100%;
+}
+
 
 .section__foods{
     background-color: #a98ee9;
