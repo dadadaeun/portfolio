@@ -71,7 +71,7 @@
 }
 .visual__item .text{
     position: absolute;
-    font-size: 30rem;
+    font-size: 35rem;
     text-align: center;
     width: 100%;
     top:50%;
@@ -138,7 +138,7 @@
 }
 .slide-card .section__button{
     display: block;
-    margin: 0 auto; 
+    margin: 0    auto; 
     background-color: #000;
     border: 0;
     color: #fff;
