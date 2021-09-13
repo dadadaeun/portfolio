@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url("reset.css");
+@import url("common.css");
 
 .wraper{}
 /*header*/
@@ -11,15 +11,23 @@
     height: 50px;
     background-color: #fff;
     text-align: center;
+    z-index: 3;
 }
 .header__button{
     position: absolute;
     top: 15px;
     left: 20px;
+    border: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/menu.png) no-repeat 0;
+    background-size: contain;
+    width: 30px;
 }
 .header__nav{
     display: none;
 }
+
 .header__logo{
     display: inline-block;
     margin-top: 7px;
@@ -35,20 +43,109 @@
 .section__visual{
     background-color: #faf8f4;
 }
-.visual__item{
-    display: none;
-    text-align: center;
+.visual__list{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
 }
-.visual__item:first-child{
+.visual__item{
+    position: absolute;
+    display: none;
+    top:0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.visual__item.is--active{
     display: block;
 }
-
+.visual__item .image{
+    position: relative;
+    width: auto;
+    height: 65%;
+    z-index: 2;
+    top:50%;
+    transform: translateY(-50%);
+}
+.visual__item .text{
+    position: absolute;
+    font-size: 30rem;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
 .section__best{
     background-color: #f9e3ca;
 }
 .section__best .section__title{
+    font-size: 3rem;
     text-align: center;
+    padding-top:60px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+.slide-card{
+    width:240px;
+    margin-top: 10px;
+}
+.slide-card__thumbnail{
+    display: block;
+    text-align: center;
+    width:100%;
+    height:290px;
+}
+.slide-card__thumbnail .image{
+    height: 100%;
+}
+.slide-card__info {
+    position: relative;
+    margin: 5px 0 0 5px;
+}
+.slide-card__info .title,
+.slide-card__info .description{
+    padding-right: 40px;
+}
+.slide-card__info .title, 
+.slide-card__info .bold{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.slide-card__info .description{
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+.slide-card__info .button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: transparent;
+    border: 0;
+}
+.slide-card__info .image--more{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.section__footer{
+    padding: 30px 0;
+}
+.section__button{
+    display: block;
+    margin: 0 auto; 
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: 13px 18px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
 
 .section__special{
     background-color: #FCC12A;

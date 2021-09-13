@@ -2,13 +2,22 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <meta name="viewport" content="viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="format-detection" content="telephone=no, address=no, email=no" />
+  <link rel="apple-touch-icon" href="@@webRoot/static/images/icon/app-icon-128.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="@@webRoot/static/images/icon/app-icon-180.png" />
+
     <title>Let's Drink with DE</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 <div class="wraper">
-    <h1>Let's Drink with DE</h1>
+    <h1 class="hidden-text">Let's Drink with DE</h1>
     <header class="header">
        <button type="button" class="header__button header__button--menu">메뉴</button> 
        <div class="nav header__nav">
@@ -27,25 +36,25 @@
             <div class="visual section__contents">
                 <ul class="visual__list">
                     <li class="visual__item"> 
-                        <a href="#none" class="anchor"><img src="images/wit.png" alt="월요일" class="image">월</a>
+                        <a href="#none" class="anchor"><img src="images/wit.png" alt="월요일" class="image"><span class="text">월</span></a>
                     </li> 
                     <li class="visual__item"> 
-                        <a href="#none" class="anchor"><img src="images/hwa.png" alt="화요일" class="image">화</a>
+                        <a href="#none" class="anchor"><img src="images/hwa.png" alt="화요일" class="image"><span class="text">화</span></a>
                     </li>
                     <li class="visual__item"> 
-                        <a href="#none" class="anchor"><img src="images/mak.png" alt="수요일" class="image">수</a>
+                        <a href="#none" class="anchor"><img src="images/mak.png" alt="수요일" class="image"><span class="text">수</span></a>
                     </li>
                     <li class="visual__item">
-                        <a href="#none" class="anchor"><img src="images/cheong.png" alt="목요일" class="image">목</a>
+                        <a href="#none" class="anchor"><img src="images/cheong.png" alt="목요일" class="image"><span class="text">목</span></a>
                     </li>
                     <li class="visual__item">
-                        <a href="#none" class="anchor"><img src="images/cham_f.png" alt="금요일" class="image">금</a>
+                        <a href="#none" class="anchor"><img src="images/cham_f.png" alt="금요일" class="image"><span class="text">금</span></a>
                     </li>
-                    <li class="visual__item">
-                        <a href="#none" class="anchor"><img src="images/jeju.png" alt="토요일" class="image">토</a>
+                    <li class="visual__item is--active">
+                        <a href="#none" class="anchor"><img src="images/jeju.png" alt="토요일" class="image"><span class="text">토</span></a>
                     </li>
                     <li class="visual__item">   
-                        <a href="#none" class="anchor"><img src="images/100.png" alt="일요일" class="image">일</a>
+                        <a href="#none" class="anchor"><img src="images/100.png" alt="일요일" class="image"><span class="text">일</span></a>
                     </li>
                 </ul>
             </div>
@@ -56,36 +65,126 @@
             </div> 
             <div class="best section__contents">
                 <ul class="best__list">
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/apple.png" alt="애플마티니" class="image"></a>
-                        <b class="item__b">애플마티니</b>
-                        <p class="item__p">상큼한 초록색과 새콤달콤한 맛</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/hwa.png" alt="화요토닉" class="image"></a>
-                        <b class="item__b">화요토닉</b>
-                        <p class="item__p">레몬으로 상큼함을 더한 짜릿한 맛</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/cham_f.png" alt="참이슬" class="image"></a>
-                        <b class="item__b">참이슬</b>
-                        <p class="item__p">설명할 필요없는 술 중의 술</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/cheong.png" alt="청하" class="image"></a>
-                        <b class="item__b">청하</b>
-                        <p class="item__p">부드러운 목넘김에 술이 술술술</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/goose.png" alt="구스IPA" class="image"></a>
-                        <b class="item__b">구스IPA</b>
-                        <p class="item__p">쓴 맛을 느끼고 싶은 날</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/mak.png" alt="느린마을막걸리" class="image"></a>
-                        <b class="item__b">느린마을막걸리</b>
-                        <p class="item__p">막걸리처럼 느리더라도 나만의 맛을 가지기</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/beer.png" alt="생맥주" class="image"></a>
-                        <b class="item__b">생맥주</b>
-                        <p class="item__p">살얼음 가득한 맥주는 날 떨리게 해</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/maehwa.png" alt="매화수" class="image"></a>
-                        <b class="item__b">매화수</b>
-                        <p class="item__p">달콤한 주스를 마시고 싶을 때</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/yeon.png" alt="고량주" class="image"></a>
-                        <b class="item__b">고량주</b>
-                        <p class="item__p">뒤끝없는 깔끔함에 향기로움까지</p></li>
-                    <li class="best__item"><a href="#none" class="anchor"><img src="images/100.png" alt="백세주" class="image"></a>
-                        <b class="item__b">백세주</b>
-                        <p class="item__p">건강하게 오래오래 술마시자</p></li>    
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/apple.png" alt="애플마티니" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">애플마티니</span></p>
+                            <p class="description">상큼한 초록색과 새콤달콤한 맛</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/hwa.png" alt="화요토닉" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">화요토닉</span></p>
+                            <p class="description">레몬으로 상큼함을 더한 짜릿한 맛</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/cham_f.png" alt="참이슬" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">참이슬</span></p>
+                            <p class="description">설명할 필요없는 술 중의 술</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/cheong.png" alt="청하" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">청하</span></p>
+                            <p class="description">부드러운 목넘김에 술이 술술술</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/goose.png" alt="구스IPA" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">구스IPA</span></p>
+                            <p class="description">쓴 맛을 느끼고 싶은 날</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/mak.png" alt="느린마을막걸리" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">느린마을막걸리</span></p>
+                            <p class="description">막걸리처럼 느리더라도 나만의 맛을 가지기</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/beer.png" alt="생맥주" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">생맥주</span></p>
+                            <p class="description">살얼음 가득한 맥주는 날 떨리게 해</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/maehwa.png" alt="매화수" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">매화수</span></p>
+                            <p class="description">달콤한 주스를 마시고 싶을 때</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/yeon.png" alt="고량주" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">고량주</span></p>
+                            <p class="description">뒤끝없는 깔끔함에 향기로움까지</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
+                    <li class="best__item slide-card">
+                        <div class="slide-card__thumbnail">
+                            <a href="#none" class="anchor">
+                                <img src="images/100.png" alt="백세주" class="image">
+                            </a>
+                        </div>
+                        <div class="slide-card__info">
+                            <p class="title"><span class="bold">백세주</span></p>
+                            <p class="description">건강하게 오래오래 술마시자</p>
+                            <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
+                        </div>
+                    </li>
             </div>
             <div class="section__footer">
                 <button type="button" class="section__button section__button--more">Check it out</button> 
