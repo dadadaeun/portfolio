@@ -2,7 +2,6 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-   
     <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="white" />
@@ -19,15 +18,16 @@
 <div class="wraper">
     <h1 class="hidden-text">Let's Drink with DE</h1>
     <header class="header">
-       <button type="button" class="header__button header__button--menu">메뉴</button> 
+       <button type="button" class="header__button header__button--menu"><span class="hidden-text">메뉴</span></button> 
        <div class="nav header__nav">
            <ul class="nav__list">
                <li class="nav__item"><a href="#none" class="anchor">BEST 10</a></li>
                <li class="nav__item"><a href="#none" class="anchor">EVERYDAY</a></li>
                <li class="nav__item"><a href="#none" class="anchor">SPECIAL</a></li>
-               <li class="nav__item"><a href="#none" class="anchor">WITHFOODS</a></li>
+               <li class="nav__item"><a href="#none" class="anchor">WITH FOODS</a></li>
                <li class="nav__item"><a href="#none" class="anchor">TOGETHER</a></li>
            </ul>
+           <button type="button" class="header__button header__button--close" ><span class="hidden-text">닫기</span></button>
         </div>
         <a href="#none" class="anchor header__logo"><img src="images/logo(L).png" alt="let's drink with de" class="image"></a>
     </header>
@@ -198,15 +198,19 @@
                 <div class="special section__contents">
                     <ul class="special__list">
                         <li class="special__item thumb-card">
+                            <div class="thumb-card__box">
                             <div class="thumb-card__thumbnail">
-                                    <img src="images/b52.png" alt="B-52" class="image">
+                                <img src="images/b52.png" alt="B-52" class="image">
                             </div>
                             <div class="thumb-card__info">
                                 <p class="title"><span class="bold">B-52</span></p>
                                 <button type="button" class="button button--more">GO RECIPE</button>
                             </div>
+                            </div>    
+                            
                         </li>
                         <li class="special__item thumb-card">
+                            <div class="thumb-card__box">
                             <div class="thumb-card__thumbnail">
                                     <img src="images/apple.png" alt="애플마티니" class="image">
                             </div>
@@ -214,8 +218,10 @@
                                 <p class="title"><span class="bold">애플마티니</span></p>
                                 <button type="button" class="button button--more">GO RECIPE</button>
                             </div>
+                            </div>
                         </li>
                         <li class="special__item thumb-card">
+                            <div class="thumb-card__box">
                             <div class="thumb-card__thumbnail">
                                     <img src="images/bloody.png" alt="블러디메리" class="image">
                             </div>
@@ -223,8 +229,10 @@
                                 <p class="title"><span class="bold">블러디메리</span></p>
                                 <button type="button" class="button button--more">GO RECIPE</button>
                             </div>
+                            </div>
                         </li>
                         <li class="special__item thumb-card">
+                            <div class="thumb-card__box">
                             <div class="thumb-card__thumbnail">
                                     <img src="images/tequila.png" alt="데킬라 선라이즈" class="image">
                             </div>
@@ -232,6 +240,7 @@
                                 <p class="title"><span class="bold">데킬라 선라이즈</span></p>
                                 <button type="button" class="button button--more">GO RECIPE</button>
                             </div>
+                            </div>  
                         </li>
                     </ul>
                 </div>
@@ -298,15 +307,15 @@
         <div class="footer__logo">
             <img src="images/logo(m).png" alt="LET'S DRINK WITH DE">
         </div>
-        <div class="nav footer__nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#none" class="anchor">ABOUT ME</a>
+        <div class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item"><a href="#none" class="anchor">ABOUT ME</a>
                 </li>
-                <li class="nav__item"><a href="#none" class="anchor">PICK ME UP</a>
+                <li class="footer-nav__item"><a href="#none" class="anchor">PICK ME UP</a>
                 </li>
-                <li class="nav__item"><a href="#none" class="anchor">E-MAIL</a>
+                <li class="footer-nav__item"><a href="#none" class="anchor">E-MAIL</a>
                 </li>
-                <li class="nav__item"><a href="#none" class="anchor">PHONE</a>
+                <li class="footer-nav__item"><a href="#none" class="anchor">PHONE</a>
                 </li>
             </ul>
         </div>
