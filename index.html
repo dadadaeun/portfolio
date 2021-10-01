@@ -12,7 +12,12 @@
   <link rel="apple-touch-icon" sizes="180x180" href="@@webRoot/static/images/icon/app-icon-180.png" />
 
     <title>Let's Drink with DE</title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css">
+    
 </head>
 <body>
 <div class="wraper">
@@ -24,8 +29,8 @@
                <li class="nav__item"><a href="#none" class="anchor">BEST 10</a></li>
                <li class="nav__item"><a href="#none" class="anchor">EVERYDAY</a></li>
                <li class="nav__item"><a href="#none" class="anchor">SPECIAL</a></li>
-               <li class="nav__item"><a href="#none" class="anchor">WITH FOODS</a></li>
-               <li class="nav__item"><a href="#none" class="anchor">TOGETHER</a></li>
+               <li class="nav__item nav__item--right"><a href="#none" class="anchor">WITH FOODS</a></li>
+               <li class="nav__item nav__item--right"><a href="#none" class="anchor">TOGETHER</a></li>
            </ul>
            <button type="button" class="header__button header__button--close" ><span class="hidden-text">닫기</span></button>
         </div>
@@ -63,9 +68,9 @@
             <div class="section__header">
                 <h2 class="section__title">Let's Drink BEST 10</h2>
             </div> 
-            <div class="best section__contents">
-                <ul class="best__list">
-                    <li class="best__item slide-card">
+            <div class="best section__contents swiper swiper--best">
+                <ul class="best__list swiper-wrapper">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/apple.png" alt="애플마티니" class="image">
@@ -77,7 +82,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/hwa.png" alt="화요토닉" class="image">
@@ -89,7 +94,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/cham_f.png" alt="참이슬" class="image">
@@ -101,7 +106,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/cheong.png" alt="청하" class="image">
@@ -113,7 +118,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/goose.png" alt="구스IPA" class="image">
@@ -125,7 +130,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/mak.png" alt="느린마을막걸리" class="image">
@@ -137,7 +142,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/beer.png" alt="생맥주" class="image">
@@ -149,7 +154,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/maehwa.png" alt="매화수" class="image">
@@ -161,7 +166,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/yeon.png" alt="고량주" class="image">
@@ -173,7 +178,7 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
-                    <li class="best__item slide-card">
+                    <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
                             <a href="#none" class="anchor">
                                 <img src="images/100.png" alt="백세주" class="image">
@@ -185,6 +190,8 @@
                             <button type="button" class="button button--more"><img class="image image--more" src="images/add.png" alt="더보기"></button>
                         </div>
                     </li>
+                </ul>
+                <div class="swiper-pagination"></div>
             </div>
             <div class="section__footer">
                 <button type="button" class="section__button section__button--more">Check it out</button> 
@@ -245,10 +252,9 @@
                     </ul>
                 </div>
             </div>
-        <div class="section section__foods">
-            <div>
-            <ul class="foods-list">
-                <li class="foods-card">
+        <div class="section section__foods swiper swiper--foods">
+            <ul class="foods-list swiper-wrapper">
+                <li class="foods-card swiper-slide">
                     <div class="foods-card__thumbnail">
                         <img src="images/beer.png" alt="맥주" class="image">
                     </div>
@@ -258,7 +264,7 @@
                         <button class="button" type="button">CHECK IT OUT</button>
                     </div>
                 </li>
-                <li class="foods-card">
+                <li class="foods-card swiper-slide">
                     <div class="foods-card__thumbnail">
                         <img src="images/black.png" alt="칵테일" class="image">
                     </div>
@@ -268,7 +274,7 @@
                         <button class="button" type="button">CHECK IT OUT</button>
                     </div>
                 </li>
-                <li class="foods-card">
+                <li class="foods-card swiper-slide">
                     <div class="foods-card__thumbnail">
                         <img src="images/mak.png" alt="막걸리" class="image">
                     </div>
@@ -278,7 +284,7 @@
                         <button class="button" type="button">CHECK IT OUT</button>
                     </div>
                 </li>
-                <li class="foods-card">
+                <li class="foods-card swiper-slide">
                     <div class="foods-card__thumbnail">
                         <img src="images/cham_f.png" alt="소주" class="image">
                     </div>
@@ -288,7 +294,7 @@
                         <button class="button" type="button">CHECK IT OUT</button>
                     </div>
                 </li>
-                <li class="foods-card">
+                <li class="foods-card swiper-slide">
                     <div class="foods-card__thumbnail">
                         <img src="images/yeon.png" alt="고량주" class="image">
                     </div>
@@ -299,13 +305,11 @@
                     </div>
                 </li>
             </ul>
-        </div>
+            <div class="swiper-pagination"></div>
         </div> 
     </main>
     <footer class="footer">
         <div class="footer__text">Let's Drink <br>with DE</div>
-        <div class="footer__logo">
-        </div>
         <div class="footer-nav">
             <ul class="footer-nav__list">
                 <li class="footer-nav__item"><a href="#none" class="anchor">ABOUT ME</a>
@@ -325,5 +329,7 @@
         </div>
     </footer>
 </div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
