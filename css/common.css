@@ -19,7 +19,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 { position: relative;
     bottom: 0;
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 /*header*/
@@ -33,6 +32,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-align: center;
     z-index: 3;
 }
+
 .header__button--menu{
     position: absolute;
     top: 15px;
@@ -42,6 +42,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-size: contain;
     width: 30px;
     height: 24px;
+    cursor: pointer;
 }
 .header__nav{
     display: none;
@@ -54,6 +55,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-top:80px;
     line-height: 1.5;
     box-sizing: border-box;
+}
+.header__nav.is-active {
+    display: block;
 }
 .nav__list{
     display: inline-block;
@@ -72,7 +76,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border:0;
 }
 .header__logo{
-    display: block;
+    display: inline-block;
     font-size: 2.2rem;
     margin-top:14px;
 }
@@ -97,6 +101,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .footer-nav{
     text-align: center;
+    margin: 30px 0;
 }
 .footer-nav__list {
     text-align: center;
@@ -115,7 +120,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .footer__sns{
     width: 124px;
     height:30px;
-    margin: 65px auto 0;
+    margin: 30px auto 0;
 }
 .footer__sns .image{ 
     height: 100%;
