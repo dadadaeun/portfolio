@@ -1,0 +1,31 @@
+@import url("common.css");
+
+.wraper{}
+
+.section__title{
+    background-color:#cab2b4;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+}
+/*contents*/
+.contents{
+    margin-top: 50px;
+    background-color: #fde4e6;
+}
+.foods-card__alcohol {
+    display: inline;
+}
+.foods-card__alcohol .title{
+    font-size: 8rem;
+    font-weight: bold;
+}
+.foods-card__alcohol .description{
+    font-size: 3rem;
+}
+.foods-card__alcohol .foods{
+    font-size: 6rem;
+}
+.foods-card__alcohol .image{
+    display: inline;
+}

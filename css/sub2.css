@@ -13,3 +13,109 @@
     margin-top: 50px;
     background-color: #fff4de;
 }
+.thumb-card{
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+}
+.thumb-card__box {
+    background-color: #ebe8dd;
+}
+.thumb-card:nth-child(2) .thumb-card__box{
+	background-color:#fcdd9f;
+}
+.thumb-card:nth-child(3) .thumb-card__box{
+  background-color: #ffcfd2;
+}
+.thumb-card:nth-child(4) .thumb-card__box{
+   background-color:#a5d8e5;
+}
+.thumb-card__thumbnail{
+	text-align: center;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 30px;
+}
+.thumb-card__thumbnail .image{
+    width: auto;
+	height: 100%;
+}
+.thumb-card__contents{
+	width: 100%;
+	height: 100px;
+	background-color:#977256;
+    color: #fff;
+}
+.thumb-card:nth-child(2) .thumb-card__contents{
+	background-color: #e1636c;
+}
+.thumb-card:nth-child(3) .thumb-card__contents{
+	background-color:#c06268;
+}
+.thumb-card:nth-child(4) .thumb-card__contents{
+	background-color:#110042;
+}
+
+.thumb-card .bold{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+	padding-top: 5px;
+    font-family:'Gowun Dodum';
+}
+.thumb-card__contents .recipe{
+    font-family:'Gowun Dodum';
+    font-size: 1.3rem;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+.footer-contents__thumbnail{
+    width: 375px;
+    margin: 140px auto 0;
+    text-align: center;
+}
+.footer-contents__thumbnail .image{
+    width: 100%;
+}
+.footer-contents__info{
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.footer-contents__info .bold{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.footer-contents__info .description{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-family:'Gowun Dodum';
+}
+@media (min-width: 1024px) {
+    .footer-contents__box{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .footer-contents__thumbnail{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .footer-contents__thumbnail .image{
+        width: 90%;
+    }
+    .footer-contents__info{
+        width: 50%;
+        margin-right: 40px;
+        padding-top: 70px;
+    }
+    .footer-contents__info .bold{
+        font-size: 4rem;
+    }
+    .footer-contents__info .description{
+        font-size: 1.8rem;
+    }
+}
