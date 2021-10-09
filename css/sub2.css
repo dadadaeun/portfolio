@@ -1,0 +1,15 @@
+@import url("common.css");
+
+.wraper{}
+
+.section__title{
+    background-color: #ccc1ac;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+}
+/*contents*/
+.contents{
+    margin-top: 50px;
+    background-color: #fff4de;
+}

@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class="wraper">
+        <h1 class="hidden-text">Let's Drink with DE</h1>
         <header class="header">
             <button type="button" class="header__button header__button--menu"><span class="hidden-text">메뉴</span></button> 
             <div class="nav header__nav">
@@ -22,8 +23,8 @@
                     <li class="nav__item"><a href="#none" class="anchor">BEST 10</a></li>
                     <li class="nav__item"><a href="#none" class="anchor">EVERYDAY</a></li>
                     <li class="nav__item"><a href="#none" class="anchor">SPECIAL</a></li>
-                    <li class="nav__item"><a href="#none" class="anchor">WITH FOODS</a></li>
-                    <li class="nav__item"><a href="#none" class="anchor">TOGETHER</a></li>
+                    <li class="nav__item nav__item--right"><a href="#none" class="anchor">WITH FOODS</a></li>
+                    <li class="nav__item nav__item--right"><a href="#none" class="anchor">TOGETHER</a></li>
                 </ul>
                 <button type="button" class="header__button header__button--close" ><span class="hidden-text">닫기</span></button>
              </div>
@@ -38,19 +39,20 @@
                 <ul class="best__list">
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/apple.png" alt="애플마티니">
+                            <img src="images/apple.png" alt="애플마티니" class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 1<br>애플마티니
+                                BEST 1
+                                <p class="title_kr">애플마티니</p>
                             </h2>
                             <p class="description"><span class="bold">상큼한 초록색과 새콤달콤한 맛</span></p>
                             <p class="detail">
-                                보드카 마티니에서 베르무트 대신 사과 쥬스나 애플 슈냅스를 사용한 칵테일.
+                                보드카 마티니에서 베르무트 대신 사과 쥬스나 애플 슈냅스를 사용한 칵테일.<Br>
                                 어떤 레시피를 사용해도 25도가 넘는 독한 칵테일이지만, 
                                 특유의 예쁜 초록색과 새콤달콤한 맛으로 인기를 끌었고
-                                미국 전역에 퍼진다. 애플마티니를 처음 시도한 롤라의 레스토랑에서는
-                                술취해 쓰러진 여성들이 너무 많아져서 메뉴에서 제외한 적도 있을 정도. 
+                                미국 전역에 퍼진다.<Br> 애플마티니를 처음 시도한 롤라의 레스토랑에서는
+                                술취해 쓰러진 여성들이 너무 많아져서 메뉴에서 제외한 적도 있을 정도.<Br> 
                                 판매 중지는 6개월 정도 이어졌는데, 애플마티니를 원하는 사람들의 원성이 
                                 너무 많아서 다시 판매하기 시작했다고 한다.
                             </p>
@@ -59,19 +61,20 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/hwa.png" alt="화요토닉">
+                            <img src="images/hwa.png" alt="화요토닉"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 2<br>화요토닉
+                                BEST 2
+                                <p class="title_kr">화요토닉</p>
                             </h2>
                             <p class="description"><span class="bold">레몬으로 상큼함을 더한 짜릿한 맛</span></p>
                             <p class="detail">
-                                火堯. 한국의 증류식 소주의 하나.
-                                화요라는 이름은 소주의 소(燒)를 파자한 것이다.
-                                향이 강하지 않아 증류식 소주를 처음 마셔보아 향에 익숙하지 않은 사람이 마시기에 적당한 술이다.
+                                火堯. 한국의 증류식 소주의 하나.<Br>
+                                화요라는 이름은 소주의 소(燒)를 파자한 것이다.<Br>
+                                향이 강하지 않아 증류식 소주를 처음 마셔보아 향에 익숙하지 않은 사람이 마시기에 적당한 술이다.<Br>
                                 레몬과 토닉워터를 가미해 만든 화요토닉은 술을 잘 마시지 못하는 사람도
-                                음료수처럼 즐길 수 있을 만큼 부드럽다.
+                                음료수처럼 즐길 수 있을 만큼 부드럽다.<Br>
                                 여성들이 좋아하는 대중적인 한국 술.
                             </p>
                         </div>
@@ -79,17 +82,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/cham_f.png" alt="참이슬">
+                            <img src="images/cham_f.png" alt="참이슬"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 3<br>참이슬
+                                BEST 3<p class="title_kr">참이슬</p>
                             </h2>
                             <p class="description"><span class="bold">설명할 필요없는 술 중의 술</span></p>
                             <p class="detail">
-                                기존 진로소주의 알코올도수를 낮춰 1998년에 판매를 시작한 하이트진로의 대표 소주 브랜드. 
-                                희석식 소주 중 판매량 1위이며 서울과 수도권, 호남지역(특히 전북) 소주이다. 
-                                오리지널은 제법 도수가 강하고 독한데 청년층은 그다지 선호하지 않지만 중장년층과 노년층에게 인기가 많다.
+                                기존 진로소주의 알코올도수를 낮춰 1998년에 판매를 시작한 하이트진로의 대표 소주 브랜드. <Br>
+                                희석식 소주 중 판매량 1위이며 서울과 수도권, 호남지역(특히 전북) 소주이다. <Br>
+                                오리지널은 제법 도수가 강하고 독한데 청년층은 그다지 선호하지 않지만 중장년층과 노년층에게 인기가 많다.<Br>
                                 자타 공인 대한민국 대표 술이며, 어느 안주와 어느 장소에든 어울리는 만인의 술.
                             </p>
                         </div>
@@ -97,17 +100,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/cheong.png" alt="청하">
+                            <img src="images/cheong.png" alt="청하"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 4<br>청하
+                                BEST 4<p class="title_kr">청하</p>
                             </h2>
                             <p class="description"><span class="bold">부드러운 목넘김에 술이 술술술</span></p>
                             <p class="detail">
-                                다른 청주, 전통주가 한약재나 기타 과실 열매를 넣는 데 비해 청하는 순수하게 쌀로만 담근다.
-                                맛은 시큼달달한 편이며 반주용으로 적당하다. 
-                                맛이 부드럽고 옅어 자극적인 안주보다는 회 같은 날음식과 잘 어울린다.
+                                다른 청주, 전통주가 한약재나 기타 과실 열매를 넣는 데 비해 청하는 순수하게 쌀로만 담근다.<Br>
+                                맛은 시큼달달한 편이며 반주용으로 적당하다. <Br>
+                                맛이 부드럽고 옅어 자극적인 안주보다는 회 같은 날음식과 잘 어울린다.<Br>
                                 일본 정통 사케와 비교하긴 힘들지만 저렴한 가격에 순하게 취할 수 있다.
                             </p>
                         </div>
@@ -115,17 +118,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/goose.png" alt="구스IPA">
+                            <img src="images/goose.png" alt="구스IPA"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 5<br>구스IPA
+                                BEST 5<p class="title_kr">구스IPA</p>
                             </h2>
                             <p class="description"><span class="bold">살짝쿵 쓴 맛을 느끼고 싶은 날</span></p>
                             <p class="detail">
                                 구스 아일랜드 브루어리에서 양조되는 맥주.
-                                처음에는 동네의 작은 펍에서 시작되었으나, 펍의 인기가 높아지며 양조장을 설립하였다.
-                                IPA란 India Pale Ale의 약자이며, 페일 에일에 다량의 홉을 넣어 만든 맥주이다.
+                                처음에는 동네의 작은 펍에서 시작되었으나, 펍의 인기가 높아지며 양조장을 설립하였다.<Br>
+                                IPA란 India Pale Ale의 약자이며, 페일 에일에 다량의 홉을 넣어 만든 맥주이다.<Br>
                                 알코올 도수가 높고, 강한 쓴맛과 아로마를 가지고 있다.
                             </p>
                         </div>
@@ -133,17 +136,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/mak.png" alt="느린마을막걸리">
+                            <img src="images/mak.png" alt="느린마을막걸리"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 6<br>느린마을막걸리
+                                BEST 6<p class="title_kr">느린마을막걸리</p>
                             </h2>
                             <p class="description"><span class="bold">막걸리처럼 느리더라도 나만의 맛을 가지기</span></p>
                             <p class="detail">
-                                국순당의 대표막걸리로 젊은 층에 인기를 끌고 있다.
-                                아스파탐을 넣지 않은 막걸리이다.
-                                심심하고 담백하다는 느낌을 받지만 물, 쌀, 밀, 누룩, 효모 외에는 첨가된 것이 없어서 자극적인 잡내가 없다.
+                                국순당의 대표막걸리로 젊은 층에 인기를 끌고 있다.<Br>
+                                아스파탐을 넣지 않은 막걸리이다.<Br>
+                                심심하고 담백하다는 느낌을 받지만 물, 쌀, 밀, 누룩, 효모 외에는 첨가된 것이 없어서 자극적인 잡내가 없다.<Br>
                                 누구든 부담 없이 먹을 수 있다. 
                             </p>
                         </div>
@@ -151,17 +154,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/beer.png" alt="생맥주">
+                            <img src="images/beer.png" alt="생맥주"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 7<br>생맥주
+                                BEST 7<p class="title_kr">생맥주</p>
                             </h2>
                             <p class="description"><span class="bold">살얼음 가득한 맥주는 날 떨리게 해</span></p>
                             <p class="detail">
-                                보리를 가공한 맥아를 주재료로 발효시키고 여기에 향신료인 홉(hop)을 첨가하여 맛을 낸 술이다.
-                                생맥주는 상대적으로 빠른 회전율로 소비되는 경향이 있어 일반적으로 병, 캔 맥주에 비해 짧은 유통 기간을 누려 훨씬 신선하고, 변질로부터 자유롭다. 
-                                캔맥주나 병맥주와는 다르게 탄산가스를 주입하여 도출하기 때문에 비교적 더 풍부한 탄산감을 느낄수도 있다.
+                                보리를 가공한 맥아를 주재료로 발효시키고 여기에 향신료인 홉(hop)을 첨가하여 맛을 낸 술이다.<Br>
+                                생맥주는 상대적으로 빠른 회전율로 소비되는 경향이 있어 일반적으로 병, 캔 맥주에 비해 짧은 유통 기간을 누려 훨씬 신선하고, 변질로부터 자유롭다. <Br>
+                                캔맥주나 병맥주와는 다르게 탄산가스를 주입하여 도출하기 때문에 비교적 더 풍부한 탄산감을 느낄수도 있다.<Br>
                                 크림 생맥주는 맥주에 질소를 충전하거나, 초음파를 통과시켜 크림처럼 조밀한 거품이 나오도록 만들어진 맥주이다. 
                             </p>
                         </div>
@@ -169,17 +172,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/maehwa.png" alt="매화수">
+                            <img src="images/maehwa.png" alt="매화수"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 8<br>매화수
+                                BEST 8<p class="title_kr">매화수</p>
                             </h2>
                             <p class="description"><span class="bold">달콤한 주스를 마시고 싶을 때</span></p>
                             <p class="detail">
-                                매실주 원액과 스페인산 화이트 와인을 혼합한 것에 주정을 넣어 도수를 14%로 유지하여 제조된다. 
-                                이 때문에 희석식 소주와 다른 '과실주'로 분류되어 있다.
-                                매실주의 새콤달콤한 맛을 강조한 것이 특징이다. 
+                                매실주 원액과 스페인산 화이트 와인을 혼합한 것에 주정을 넣어 도수를 14%로 유지하여 제조된다.<Br> 
+                                이 때문에 희석식 소주와 다른 '과실주'로 분류되어 있다.<Br>
+                                매실주의 새콤달콤한 맛을 강조한 것이 특징이다. <Br>
                                 달고 목넘김이 좋기 때문에 많이 마시게 되어 앉은뱅이 술에 속하기도 한다.
                             </p>
                         </div>
@@ -187,18 +190,18 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/yeon.png" alt="고량주">
+                            <img src="images/yeon.png" alt="고량주"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 9<br>고량주
+                                BEST 9<p class="title_kr">고량주</p>
                             </h2>
                             <p class="description"><span class="bold">뒤끝없는 깔끔함에 향기로움까지</span></p>
                             <p class="detail">
-                                고량주는 백주의 일종으로, 수수를 주원료로 사용하여 만든 중국의 증류주다.
-                                일반적으로 도수가 높으면 50~60도, 낮으면 30~40도 내외로 강한 편이다. 
-                                부드럽고 깔끔한 맛과 은은한 과일향이 특징이다.
-                                고량주는 증류주로 중국 술 중에서도 상당히 독한 편이다.
+                                고량주는 백주의 일종으로, 수수를 주원료로 사용하여 만든 중국의 증류주다.<Br>
+                                일반적으로 도수가 높으면 50~60도, 낮으면 30~40도 내외로 강한 편이다. <Br>
+                                부드럽고 깔끔한 맛과 은은한 과일향이 특징이다.<Br>
+                                고량주는 증류주로 중국 술 중에서도 상당히 독한 편이다.<Br>
                                 높은 도수와 입 안을 씻어내리는 듯한 깔끔한 뒷맛 때문에 향이 강하고 기름기가 많은 중국 음식과 매우 잘 어울린다.
                             </p>
                         </div>
@@ -206,17 +209,17 @@
 
                     <li class="best__item slide-card">
                         <div class="slide-card__thumbnail">
-                            <img src="images/100.png" alt="백세주">
+                            <img src="images/100.png" alt="백세주"  class="image">
                         </div>
                         <div class="slide-card__info">
                             <h2 class="title">
-                                BEST 10<br>백세주
+                                BEST 10<p class="title_kr">백세주</p>
                             </h2>
                             <p class="description"><span class="bold">건강하게 오래오래 술마시자</span></p>
                             <p class="detail">
-                                1992년부터 국순당에서 주조하는 청주이다.
-                                "백세주"라는 명칭은 조선 중기의 학자인 이수광의 《지봉유설》에 전하는 "구기백세주" 설화에서 따온 것이다. 
-                                주세법상 약주로 분류되며 대중적으로 가장 잘 알려진 한국식 청주라고 할 수 있다.
+                                1992년부터 국순당에서 주조하는 청주이다.<Br>
+                                "백세주"라는 명칭은 조선 중기의 학자인 이수광의 《지봉유설》에 전하는 "구기백세주" 설화에서 따온 것이다. <Br>
+                                주세법상 약주로 분류되며 대중적으로 가장 잘 알려진 한국식 청주라고 할 수 있다.<Br>
                                 술 자체에 한약재가 들어가 특유의 향취가 무척 강하고 달작지근한 약재를 넣었기 때문에 단맛도 강한 편이다.
                             </p>
                         </div>
