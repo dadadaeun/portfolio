@@ -12,6 +12,10 @@
 .contents{
     margin-top: 50px;
     background-color: #fff4de;
+
+}
+.special__list{
+    font-size: 0;
 }
 .thumb-card{
     display: inline-block;

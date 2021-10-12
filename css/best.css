@@ -3,7 +3,8 @@
 .wraper{}
 
 .section__title{
-    background-color: #a5d8e5;
+    background-color: #2B5A66;
+    color: #fff;
     font-size: 3rem;
     padding: 20px;
     text-align: center;
@@ -65,7 +66,7 @@
     }
     .slide-card{
         display: flex;
-        border-bottom: 2px solid #2B5A66;
+        border-bottom: 1px solid #2B5A66;
     }
     .slide-card__thumbnail{
         width: 50%;
