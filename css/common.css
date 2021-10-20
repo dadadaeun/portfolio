@@ -119,16 +119,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 2rem;
     color:#110042;
 }
-.footer__sns{
-    width: 124px;
+.footer__icon{
+    width: 140px;
     height:30px;
     margin: 30px auto 0;
 }
-.footer__sns .image{ 
+.footer__icon .image{ 
     height: 100%;
     margin-right: 13px;
 }
-.footer__sns a:last-child .image{
+.footer__icon a:last-child .image{
     margin-right: 0;
 }
 
@@ -173,9 +173,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
      padding: 0 20px;
      box-sizing: border-box;
  }
- .footer__sns{
-    margin: 0;
+ .footer__icon{
+    margin: 0;      
  }
+.footer__icon .image{
+}
  .footer-nav__list {
     padding: 0;
  }
