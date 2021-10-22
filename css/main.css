@@ -65,6 +65,7 @@
     width:240px;
     margin-top: 10px;
     display: inline-block;
+    margin-left: 15px;
 }
 .slide-card__thumbnail{
     display: block;
@@ -118,13 +119,13 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 
 
 .section__special{
     background-color: #fff4de;
-
 }
 .section__special .section__header{
     text-align: center;
@@ -145,6 +146,7 @@
     padding-right: 17px;
     box-sizing: border-box;
 }
+
 .thumb-card{
     display: inline-block;
     width: 50%;
@@ -197,7 +199,7 @@
     text-align: center;
     margin: 10px;
 	padding-top: 5px;
-    
+    font-family: 'Gowun Dodum', sans-serif;
 }
 .thumb-card .button{
 	display : block;
@@ -209,6 +211,7 @@
     text-align: center;
     font-weight: bold;
     border-radius: 50px;
+    cursor: pointer;
 }
 .thumb-card:nth-child(2)  .button{
 	background-color: #ebe8dd;
@@ -264,6 +267,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 .swiper-pagination-bullet-active{
     background-color: hotpink;
