@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded',function() {
   foodsSwiper.update();
 
   //visualAnimation();
+
+  new WOW().init();
 })
 
 window.addEventListener('resize', function() {
