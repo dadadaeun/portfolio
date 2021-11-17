@@ -150,7 +150,7 @@
 .thumb-card{
     display: inline-block;
     width: 50%;
-    min-width:170px;
+    min-width:150px;
     padding: 15px 0 5px 17px;
     box-sizing: border-box;
 }
@@ -194,7 +194,7 @@
 }
 .thumb-card .bold{
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
     margin: 10px;
@@ -209,6 +209,7 @@
     color:#977256;
     padding: 5px 10px;
     text-align: center;
+    font-size: 1.4rem;
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
@@ -232,7 +233,9 @@
 .section__foods{
     background-color: #fde4e6;
 }
-
+.section__foods .section__title{
+    font-size: 2.7rem;
+}
 .foods-card{
     position: relative;
     display: flex;
@@ -244,7 +247,7 @@
     text-align: center;
 }
 .foods-card__thumbnail .image{
-    height: 260px;
+    height: 180px;
 }
 .foods-card__info{
     text-align: center;
@@ -292,4 +295,10 @@
     .thumb-card__info .bold{
         font-size: 1.7rem;
     }
+ }
+ 
+ @media (max-width: 320px){
+     html{
+         font-size: 7px;
+     }
  }

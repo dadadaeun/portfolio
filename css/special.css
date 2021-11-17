@@ -4,7 +4,7 @@
 
 .section__title{
     background-color: #ccc1ac;
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding: 20px;
     text-align: center;
 }
@@ -22,7 +22,6 @@
     width: 50%;
     box-sizing: border-box;
     vertical-align: middle;
-
 }
 .thumb-card__box {
     background-color: #ebe8dd;
@@ -39,16 +38,17 @@
 .thumb-card__thumbnail{
 	text-align: center;
     width: 100%;
-    height: 300px;
+    height: 220px;
     padding-bottom: 30px;
 }
 .thumb-card__thumbnail .image{
     width: auto;
-	height: 100%;
+    max-width: 160px;
+	height: auto;
 }
 .thumb-card__contents{
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	background-color:#977256;
     color: #fff;
 }
@@ -64,20 +64,20 @@
 
 .thumb-card .bold{
     display: block;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     margin: 10px;
-	padding-top: 5px;
+	padding-top: 10px;
     font-family:'Gowun Dodum';
 }
 .thumb-card__contents .recipe{
     font-family:'Gowun Dodum';
-    font-size: 1.3rem;
-    line-height: 1.5;
-    padding-left: 10px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding: 10px;
 }
 .footer-contents__thumbnail{
-    width: 375px;
+    width: auto;
     margin: 140px auto 0;
     text-align: center;
 }
@@ -85,7 +85,7 @@
     width: 100%;
 }
 .footer-contents__info{
-    height: 240px;
+    height: 260px;
     margin-top: 20px;
     margin-left: 20px;
     text-align: center;
@@ -95,8 +95,8 @@
     font-weight: bold;
 }
 .footer-contents__info .description{
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.6rem;
+    line-height: 1.8;
     margin-top: 20px;
     font-family:'Gowun Dodum';
 }
@@ -152,5 +152,16 @@
     }
     .footer-contents__info .description{
         font-size: 1.8rem;
+    }
+}
+@media (max-width: 320px){
+    html{
+        font-size: 7px;
+    }
+    .thumb-card__thumbnail .image{
+        max-width: 140px;
+    }
+    .thumb-card__contents{
+        height: 180px;
     }
 }
