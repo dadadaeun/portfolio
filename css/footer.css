@@ -21,9 +21,9 @@
     font-size: 4rem;
 }
 .portfolio-card .description{
-    margin-top: 40px;
+    padding: 20px;
     font-size: 1.8rem;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 .portfolio-image1, .portfolio-image2{
     display: inline-block;
@@ -32,17 +32,10 @@
 }
 .portfolio-image1 .image{
     width: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .portfolio-image2 .image{
     width: 50%;
     height: 270px;
 }
 
-
-@media (min-width: 1024px){
-
-}
-@media (max-width: 320px){
-
-}
