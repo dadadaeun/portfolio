@@ -13,17 +13,36 @@
     margin-top: 50px;
     background-color: #92cab1;
 }
-.me-card{
+.portfolio-card{
     text-align: center;
     margin: 50px auto;
 }
-.me-card .title{
-    font-size: 6rem;
+.portfolio-card .title{
+    font-size: 4rem;
 }
-.me-card .description{
-    padding: 40px;
-    font-size: 2rem;
+.portfolio-card .description{
+    margin-top: 40px;
+    font-size: 1.8rem;
+    line-height: 1.2;
 }
-.me-card__dream .image{
-    width: 20%;
+.portfolio-image1, .portfolio-image2{
+    display: inline-block;
+    font-size: 0;
+    margin-top: 40px;
+}
+.portfolio-image1 .image{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.portfolio-image2 .image{
+    width: 50%;
+    height: 270px;
+}
+
+
+@media (min-width: 1024px){
+
+}
+@media (max-width: 320px){
+
 }
