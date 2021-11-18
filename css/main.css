@@ -146,7 +146,6 @@
     padding-right: 17px;
     box-sizing: border-box;
 }
-
 .thumb-card{
     display: inline-block;
     width: 50%;
@@ -295,10 +294,29 @@
     .thumb-card__info .bold{
         font-size: 1.7rem;
     }
+    
  }
  
  @media (max-width: 320px){
      html{
          font-size: 7px;
      }
+     
+    .slide-card__thumbnail{
+        height:200px;
+    }
+     .thumb-card{
+        min-width:130px;
+        padding: 15px 0 5px 17px;
+        box-sizing: border-box;
+    }
+    
+    .thumb-card__thumbnail{
+        height: 120px;
+    }
+
+    .foods-card__thumbnail .image{
+        height: 130px;
+    }
+
  }
