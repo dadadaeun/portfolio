@@ -5,7 +5,7 @@
 .section__title{
     background-color: #2B5A66;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding: 20px;
     text-align: center;
 }
@@ -35,11 +35,11 @@
     padding: 20px;
 }
 .slide-card__info .title{
-    font-size: 2rem;
+    font-size: 2.6rem;
     padding: 20px;
 }
 .slide-card__info .title_kr{
-    font-size: 2rem;
+    font-size: 2.6rem;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -54,9 +54,9 @@
     border-radius: 5px;
 }
 .slide-card__info .detail{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.8;
-    padding: 50px 70px;
+    padding: 50px 40px;
 }
 
 @media (min-width: 1024px) {
@@ -77,4 +77,12 @@
     .slide-card__info{
         width: 50%;
     }
+ }
+ @media (max-width: 320px){
+     html{
+         font-size: 7px;
+     }
+     .slide-card__info .detail{
+         padding: 50px 20px;
+     }
  }

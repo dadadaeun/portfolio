@@ -12,6 +12,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="@@webRoot/static/images/icon/app-icon-180.png" />
 
     <title>Let's Drink with DE</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
@@ -23,43 +27,63 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="best.html" class="anchor">BEST 10</a></li>
                     <li class="nav__item"><a href="special.html" class="anchor">SPECIAL</a></li>
-                    <li class="nav__item nav__item--right"><a href="foods.html" class="anchor">WITH FOODS</a></li>
                     <li class="nav__item nav__item--right"><a href="footer.html " class="anchor">TOGETHER</a></li>
+                    <li class="nav__item nav__item--right"><a href="foods.html" class="anchor">WITH FOODS</a></li>
+                    
                 </ul>
                 <button type="button" class="header__button header__button--close" ><span class="hidden-text">닫기</span></button>
              </div>
              <a href="index.html" class="anchor header__logo">Let's Drink with DE</a>
          </header>
         <main class="contents">
-            <h2 class="section__title">Let's Drink with ME</h2>
-            <ul class="me-list">
-                <li class="me-card">
-                    <div class="me-card__introduce">
-                        <h2 class="title">ABOUT ME</h2>
+            <div class="section__header wow animate__animated animate__flipInX">
+            <h2 class="section__title">Let's Drink with ME</h2></div>
+            <ul class="portfolio-list">
+                <li class="portfolio-card">
+                    <div class="portfolio-card__title">
+                        <h2 class="title">TITLE</h2>
                         <p class="description">
-                            ~자기소개 내용~
+                            제 포트폴리오의 제목은 <br>"Let's drink with DE" 입니다<br>
+                            제작에 약 3개월 소요되었습니다
                         </p>
                     </div>
                 </li>
-                <li class="me-card">
-                    <div class="me-card__dream">
-                        <img src="images/me.jpg" alt="증명사진"class="image">
-                        <h2 class="title">MY DREAM</h2>
+                <li class="portfolio-card">
+                    <div class="portfolio-card__concept">
+                        <h2 class="title">CONCEPT</h2>
                         <p class="description">
-                            ~포부 내용(나를 뽑아야하는 이유)~
+                            내가 좋아하는, 나를 표현할 수 있는 주제를 선택하다 보니 "술"이라는 주제를 선택하게 되었습니다.  
+                        </p>
+                        <span class="portfolio-image1">
+                            <img src="images/me4.jpg" alt="내사진1" class="image wow animate__animated animate__fadeInUp">
+                            <img src="images/me3.jpg" alt="내사진2" class="image wow animate__animated animate__fadeInUp">
+                            </span>
+                        <p class="description">
+                            술은 어떤 재료를 가지고 어떻게 만드느냐에 따라 천차만별의 개성을 가지고 있습니다. 
+                            또한, 같은 술을 어떻게 조합하느냐에 따라 전혀 다른 술이 되기도 합니다.
+                            <br>
+                            그래서 저는 술과 같은 사람이 되고 싶습니다.
+                            함께하는 사람들을 기분좋게 하고, 함께하는 사람들과 조화롭게 어울리는 사람이 되고싶습니다.
+                            <br>
+
+                       
                         </p>
                     </div>
                 </li>
-                <li class="me-card">
-                    <div class="me-card__mail">
-                        <img src="#" alt="사진"class="image">
-                        <h2 class="title">E-MAIL</h2>
+                <li class="portfolio-card">
+                    <div class="portfolio-card__me">
+                        <h2 class="title">STRENGTH  &amp; WEAKNESS</h2>
+                        <span class="portfolio-image2">
+                            <img src="images/me1.jpg" alt="내사진3" class="image wow animate__animated animate__fadeIn">
+                            <img src="images/me2.jpg" alt="내사진4" class="image wow animate__animated animate__fadeIn"></span>    
                         <p class="description">
-                            lasilver36@naver.com
+                            제 포트폴리오의 강점은 "기본기"입니다. <br>
+
+                            작업을 하며 어려웠던 부분은 "공간 배치를 위한 레이아웃과 클래스명 부여하기"였습니다.
                         </p>
                     </div>
                 </li>
-                
+        
             </ul>
 
 
@@ -69,11 +93,11 @@
             <div class="footer__text">Let's Drink <br>with DE</div>
             <div class="footer-nav">
                 <ul class="footer-nav__list">
-                    <li class="footer-nav__item"><a href="#none" class="anchor">ABOUT ME</a>
+                    <li class="footer-nav__item"><a href="footer.html" class="anchor">TITLE</a>
                     </li>
-                    <li class="footer-nav__item"><a href="#none" class="anchor">PICK ME UP</a>
+                    <li class="footer-nav__item"><a href="footer.html" class="anchor">CONCEPT</a>
                     </li>
-                    <li class="footer-nav__item"><a href="#none" class="anchor">E-MAIL</a>
+                    <li class="footer-nav__item"><a href="footer.html" class="anchor">STRENGTH  &amp; WEAKNESS</a>
                     </li>
                     
                 </ul>
@@ -85,6 +109,8 @@
             </div>
         </footer>
     </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 </html>

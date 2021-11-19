@@ -4,7 +4,7 @@
 
 .section__title{
     background-color:#cab2b4;
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding: 20px;
     text-align: center;
 }
@@ -29,23 +29,24 @@
     display: inline-block;
 }
 .foods-card__alcohol .title{
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: bold;
 }
 .foods-card__alcohol .description{
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 1.8;
 }
 .foods-card__alcohol .foods{
-    font-size: 6rem;
+    font-size: 4rem;
 }
 .decoration{
     position: absolute;
-    top:-79px;
-    left:100px;
+    top: -150px;
+    left: 30px;
     z-index: 1;
 }
 .foods-card__alcohol .image{
-    transform: rotate(30deg) scale(1.3);
+    transform: rotate(0) scale(1);
 }
 .foods-card__foods{
     display: inline-block;
@@ -54,7 +55,7 @@
     width: 100%;
 }
 .foods-card__foods .name{
-    font-size: 6rem;
+    font-size: 4rem;
     margin: 20px;
     font-weight: bold;
 }
@@ -71,7 +72,47 @@
     .foods-card__alcohol{
         width: 50%;
     }
+    .decoration{
+        top:-130px;
+        left:80px;
+    }
+    .foods-card__alcohol .image{
+        transform: rotate(30deg) scale(1.4);
+    }
     .foods-card__foods{
         width: 50%;
+    }
+}
+@media (max-width: 320px){
+    .section__title{
+        font-size: 2.6rem;
+    }
+    .foods-card__alcohol{
+        min-height:180px;
+    }
+    .foods-card__alcohol .title{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .foods-card__alcohol .description{
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .foods-card__alcohol .foods{
+        font-size: 2.6rem;
+    }
+    .decoration{
+        top:-200px;
+        left:-40px;
+    }
+    .foods-card__alcohol .image{
+        transform: rotate(0) scale(0.8);
+    }
+  
+    .foods-card__foods .name{
+        font-size:3rem;
+    }
+    .foods-card__foods .description{
+        font-size: 1.8rem;
     }
 }

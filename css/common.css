@@ -3,7 +3,7 @@
 @import url("reset.css");
 
 html {
-    font-size: 7px;  
+    font-size: 8px;  
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{   
@@ -27,6 +27,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .wow {
     visibility: hidden;
 }
+
+.button{
+    cursor: pointer;
+}
 /*header*/
 .header{
     position: fixed;
@@ -46,8 +50,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     background: url(../images/menu.png) no-repeat 0;
     background-size: contain;
-    width: 30px;
-    height: 24px;
+    width: 28px;
+    height: 20px;
     cursor: pointer;
 }
 .header__nav{
@@ -94,14 +98,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     right:15px;
     background: url(../images/close.png) no-repeat;
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 16px;
+    height: 16px;
     border:0;
 }
 .header__logo{
     display: inline-block;
     font-size: 2.2rem;
-    margin-top:14px;
+    margin-top:16px;
     position: relative;
     z-index: 10;
 }
@@ -165,7 +169,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 100%;
     margin-right: 13px;
 }
-.footer__icon a:last-child .image{
+.footer__icon .image:last-child{
     margin-right: 0;
 }
 
@@ -216,8 +220,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  .footer__icon{
     margin: 0;      
  }
-.footer__icon .image{
-}
  .footer-nav__list {
     padding: 0;
  }
@@ -225,4 +227,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
      margin-bottom: 0;
  }
  
+}
+
+@media (max-width: 320px){
+ html{
+     font-size: 7px;
+ }
 }

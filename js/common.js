@@ -23,4 +23,6 @@ function menuToggle() {
   
 document.addEventListener('DOMContentLoaded',function() {
     menuToggle();
-  })
+    
+    new WOW().init();
+})

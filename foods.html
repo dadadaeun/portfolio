@@ -11,6 +11,10 @@
     <link rel="apple-touch-icon" href="@@webRoot/static/images/icon/app-icon-128.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="@@webRoot/static/images/icon/app-icon-180.png" />
     <title>Let's Drink with DE_FOODS</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/foods.css">
 </head>
 <body>
@@ -21,8 +25,9 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="best.html" class="anchor">BEST 10</a></li>
                     <li class="nav__item"><a href="special.html" class="anchor">SPECIAL</a></li>
-                    <li class="nav__item nav__item--right"><a href="foods.html" class="anchor">WITH FOODS</a></li>
                     <li class="nav__item nav__item--right"><a href="footer.html " class="anchor">TOGETHER</a></li>
+                    <li class="nav__item nav__item--right"><a href="foods.html" class="anchor">WITH FOODS</a></li>
+                    
                 </ul>
                 <button type="button" class="header__button header__button--close" ><span class="hidden-text">닫기</span></button>
              </div>
@@ -30,10 +35,12 @@
          </header>
 
          <main class="contents">
-            <h2 class="section__title">Let's Drink with Foods</h2>
+            <div class="section__header wow animate__animated animate__flipInX">
+            <h2 class="section__title ">Let's Drink with Foods</h2>
+            </div>
             <ul class="foods-list">
                 <li class="foods-card">
-                   <div class="foods-card__alcohol">
+                   <div class="foods-card__alcohol wow animate__animated animate__fadeInLeft">
                        <span class="letter">
                        <h2 class="title">맥주</h2>
                        <p class="description">맥주와 찰떡궁합</p>
@@ -43,7 +50,7 @@
                       
                     </div> 
                    <div class="foods-card__foods">
-                       <img src="images/sausage.jpg" alt="모듬소세지" class="image">
+                       <img src="images/sausage.jpg" alt="모듬소세지" class="image  wow animate__animated animate__fadeIn">
                         <p class="name">모둠 소세지</p>
                         <p class="description">
                             최고의 맥주 안주는..?<br>
@@ -55,7 +62,7 @@
                    </div>    
                 </li>
                 <li class="foods-card">
-                    <div class="foods-card__alcohol">
+                    <div class="foods-card__alcohol wow animate__animated animate__fadeInLeft">
                         <span class="letter">
                         <h2 class="title">소주</h2>
                         <p class="description">소주와 찰떡궁합</p>
@@ -64,7 +71,7 @@
                         <span class="decoration"><img src="images/cham_f.png" alt="소주" class="image"></span>
                     </div> 
                     <div class="foods-card__foods">
-                        <img src="images/gob.jpg" alt="야채곱창" class="image">
+                        <img src="images/gob.jpg" alt="야채곱창" class="image wow animate__animated animate__fadeIn">
                          <p class="name">야채곱창</p>
                          <p class="description">
                              최고의 소주 안주는..?<br>
@@ -75,7 +82,7 @@
                     </div>    
                  </li>
                  <li class="foods-card">
-                    <div class="foods-card__alcohol">
+                    <div class="foods-card__alcohol wow animate__animated animate__fadeInLeft">
                         <span class="letter">
                         <h2 class="title">칵테일</h2>
                         <p class="description">칵테일과 찰떡궁합</p>
@@ -84,7 +91,7 @@
                         <span class="decoration"><img src="images/mule.png" alt="칵테일" class="image"></span>
                     </div> 
                     <div class="foods-card__foods">
-                        <img src="images/melon.jpg" alt="하몽메론" class="image">
+                        <img src="images/melon.jpg" alt="하몽메론" class="image wow animate__animated animate__fadeIn">
                          <p class="name">하몽+멜론</p>
                          <p class="description">
                              최고의 칵테일 안주는..?<br>
@@ -96,7 +103,7 @@
                     </div>    
                  </li>
                  <li class="foods-card">
-                    <div class="foods-card__alcohol">
+                    <div class="foods-card__alcohol wow animate__animated animate__fadeInLeft">
                         <span class="letter">
                         <h2 class="title">고량주</h2>
                         <p class="description">고량주와 찰떡궁합</p>
@@ -105,7 +112,7 @@
                         <span class="decoration"><img src="images/yeon.png" alt="고량주" class="image"></span>
                     </div> 
                     <div class="foods-card__foods">
-                        <img src="images/yang.jpg" alt="양갈비-" class="image">
+                        <img src="images/yang.jpg" alt="양갈비-" class="image wow animate__animated animate__fadeIn">
                          <p class="name">양갈비</p>
                          <p class="description">
                              최고의 고량주 안주는..?<br>
@@ -124,11 +131,11 @@
             <div class="footer__text">Let's Drink <br>with DE</div>
             <div class="footer-nav">
                 <ul class="footer-nav__list">
-                    <li class="footer-nav__item"><a href="#none" class="anchor">ABOUT ME</a>
+                    <li class="footer-nav__item"><a href="footer.html" class="anchor">TITLE</a>
                     </li>
-                    <li class="footer-nav__item"><a href="#none" class="anchor">PICK ME UP</a>
+                    <li class="footer-nav__item"><a href="footer.html" class="anchor">CONCEPT</a>
                     </li>
-                    <li class="footer-nav__item"><a href="#none" class="anchor">E-MAIL</a>
+                    <li class="footer-nav__item"><a href="footer.html" class="anchor">STRENGTH  &amp; WEAKNESS</a>
                     </li>
                     
                 </ul>
@@ -140,6 +147,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 </html>
