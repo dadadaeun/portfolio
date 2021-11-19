@@ -30,7 +30,7 @@
     width: 100%;
     height: 100%;
 }
-.visual__item.is-active{
+.visual__item.sdr-active{
     display: block;
 }
 .visual__item .image{
