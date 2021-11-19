@@ -200,8 +200,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         float: left;
         margin-right: 20px;
     }
-    .nav__item--right{
+    .nav__item--about{
         float: right;
+    }
+    .nav__item--foods{
+        position: absolute;
+        top: 14px;
+        right: 72px;
     }
     .nav__item .anchor{
         font-size:1.5rem;
@@ -223,6 +228,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  .footer-nav__list {
     padding: 0;
  }
+
  .footer-nav__item{
      margin-bottom: 0;
  }
