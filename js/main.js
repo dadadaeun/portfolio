@@ -16,23 +16,26 @@ const foodsSwiper = new Swiper(".swiper--foods", {
 });
 
 function visualAnimation() {
-  const roulette = new slowingDownRotation({
+  // 오늘 날짜
+  const date = new Date();
+  const today = date.getDay();
+  
+  new SlowingDownRotation({
     wrapperElement: document.querySelector('.visual'),
     targetElement: document.querySelector('.visual__list'),
     itemElements: document.querySelectorAll('.visual__item'),
     speed: 100,
-    stopIndex : 4,
+    stopIndex : today,
     playCount: 3,
     autoStart: true,
-  })
-  roulette.init();
+  }).init();
 }
 
 document.addEventListener('DOMContentLoaded',function() {
   bestSwiper.update();
   foodsSwiper.update();
 
-  //visualAnimation();
+  visualAnimation();
 
   new WOW().init();
 })

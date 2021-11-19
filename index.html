@@ -32,9 +32,8 @@
            <ul class="nav__list">
                <li class="nav__item"><a href="best.html" class="anchor">BEST 10</a></li>
                <li class="nav__item"><a href="special.html" class="anchor">SPECIAL</a></li>
-               <li class="nav__item nav__item--right"><a href="footer.html" class="anchor">TOGETHER</a></li>
-               <li class="nav__item nav__item--right"><a href="foods.html" class="anchor">WITH FOODS</a></li>
-               
+               <li class="nav__item nav__item--foods"><a href="foods.html" class="anchor">WITH FOODS</a></li>
+               <li class="nav__item nav__item--about"><a href="about.html" class="anchor">ABOUT</a></li>
            </ul>
            <button type="button" class="header__button header__button--close" ><span class="hidden-text">닫기</span></button>
         </div>
@@ -72,7 +71,7 @@
             <div class="section__header wow animate__animated animate__bounce">
                 <h2 class="section__title">Let's Drink BEST 10</h2>
             </div> 
-            <div class="best section__contents swiper swiper--best wow animate__animated animate__bounceInRight">
+            <div class="best section__contents swiper swiper--best wow animate__animated animate__bounceInRight " data-wow-duration="2s">
                 <ul class="best__list swiper-wrapper">
                     <li class="best__item slide-card swiper-slide">
                         <div class="slide-card__thumbnail">
@@ -260,7 +259,7 @@
             <div class="section__header ">
                 <h2 class="section__title wow animate__animated animate__bounce">Let's Drink with Foods</h2>
             </div> 
-            <div class="section__contents swiper swiper--foods wow animate__animated animate__bounceInRight">
+            <div class="section__contents swiper swiper--foods wow animate__animated animate__bounceInRight " data-wow-duration="2s">
                 <ul class="foods-list swiper-wrapper">
                     <li class="foods-card swiper-slide">
                         <div class="foods-card__thumbnail">
@@ -321,12 +320,9 @@
         <div class="footer__text">Let's Drink <br>with DE</div>
         <div class="footer-nav">
             <ul class="footer-nav__list">
-                <li class="footer-nav__item"><a href="footer.html" class="anchor">TITLE</a>
+                <li class="footer-nav__item"><a href="about.html" class="anchor">ABOUT</a>
                 </li>
-                <li class="footer-nav__item"><a href="footer.html" class="anchor">CONCEPT</a>
-                </li>
-                <li class="footer-nav__item"><a href="footer.html" class="anchor">STRENGTH  &amp; WEAKNESS</a>
-                </li>
+                
                 
             </ul>
         </div>
@@ -339,6 +335,7 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/slowingDownRotation.js"></script>
 <script src="js/common.js"></script>
 <script src="js/main.js"></script>
 </body>
