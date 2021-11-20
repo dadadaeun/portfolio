@@ -108,10 +108,11 @@
 }
 .section__footer{
     padding: 30px 0 0;
+    text-align: center;
 }
 .section__button{
-    display: block;
-    margin: 0 auto; 
+    display: inline-block;
+   
     background-color: #000;
     border: 0;
     color: #fff;
@@ -181,6 +182,7 @@
 	background-color:#977256;
 	line-height: 1.5;
     color: #fff;
+    text-align: center;
 }
 .thumb-card:nth-child(2) .thumb-card__info{
 	background-color: #e1636c;
@@ -201,15 +203,14 @@
     font-family: 'Gowun Dodum', sans-serif;
 }
 .thumb-card .button{
-	display : block;
-	margin: 0 auto;
+	display : inline-block;
     background-color: #fcdd9f;
     border: 0;
     color:#977256;
     padding: 5px 10px;
     text-align: center;
     font-size: 1.4rem;
-    font-weight: bold;
+
     border-radius: 50px;
     cursor: pointer;
 }
@@ -261,14 +262,15 @@
     margin: 18px 0 15px;
 }
 .foods-card__info .button{
+    display: block;
     border: 0;
     border-radius: 40px;
     width: 120px;
     height:30px;
+    line-height: 30px;
     background-color: #f9b041;
     color: #fff;
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .swiper-pagination-bullet-active{
