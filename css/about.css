@@ -25,6 +25,9 @@
     font-size: 1.8rem;
     line-height: 1.4;
 }
+.portfolio__card .text{
+    padding: 15px;
+}
 .images--grid1, .images--grid2{
     display: inline-block;
     font-size: 0;
