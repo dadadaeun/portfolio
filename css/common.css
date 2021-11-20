@@ -110,6 +110,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     z-index: 10;
 }
 
+.contents{
+    position: relative;
+    z-index: 2;
+}
 /*footer*/
 .footer{
     display: block;
@@ -124,41 +128,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-align: center;
     line-height: 1.5;
 }
-.footer__logo{
-    margin:50px 0 50px;
+.footer__mail{
+    display: block;
     text-align: center;
-}
-.footer-nav{
-    text-align: center;
-    margin: 30px 0;
-}
-.footer-nav__list {
-    text-align: center;
-    padding-left: 20.533%;
-    padding-right: 20.533%;
-    box-sizing: border-box;
-}
-.footer-nav__item{
-    display: inline-block;
-    margin: 0 10px 24px 10px;
-}
-.footer-nav__item .anchor {
     font-size: 2rem;
+    margin: 30px 0;
     color:#110042;
-    position: relative;
-}
-.footer-nav__item .anchor:after{
-    content:'';
-    right:0;
-    bottom: 0;
-    position: absolute;
-    width: 0;
-    height: 1.5px;
-    background-color: #110042;
-    transition: width 0.3s linear;
-}
-.footer-nav__item .anchor:hover:after{
-    width: 100%;
 }
 .footer__icon{
     width: 140px;
